@@ -3,27 +3,92 @@ layout: default
 title: David Shavin | Research Portfolio
 ---
 
-# David Shavin
+<table style="width:100%; border:none; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
+  <tbody>
+    <tr style="padding:0px">
+      <td style="padding:2.5%; width:63%; vertical-align:middle">
+        <p style="text-align:center">
+          <h1 style="text-align:center">David Shavin</h1>
+        </p>
+        <p>
+          I hold an MSc in Computer Science from the Hebrew University of Jerusalem. I am passionate about the intersection of mathematics, deep learning, and computer vision, with a particular focus on 3D scene understanding, generative modeling, and feature distillation.
+        </p>
+        <p style="text-align:center">
+          <a href="mailto:david.shavin@mail.huji.ac.il">Email</a> &nbsp;/&nbsp;
+          <a href="https://scholar.google.com/citations?user=Qd1fDIwAAAAJ&hl=en&oi=ao">Scholar</a> &nbsp;/&nbsp;
+          <a href="https://www.linkedin.com/in/david-shavin-952308222/">LinkedIn</a>
+        </p>
+      </td>
+      <td style="padding:2.5%; width:30%; max-width:30%">
+        <img style="width:100%; max-width:100%; border-radius:50%" alt="profile photo" src="/assets/profile.jpg">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<img src="/assets/profile.jpg" width="180" style="border-radius: 10px;">
+<hr>
 
-**MSc in Computer Science, Hebrew University** [Email](mailto:david.shavin@mail.huji.ac.il) | [Google Scholar](https://scholar.google.com/citations?user=Qd1fDIwAAAAJ&hl=en&oi=ao) | [LinkedIn](https://www.linkedin.com/in/david-shavin-952308222/).
+<h2>Research</h2>
+<p>
+  I'm interested in computer vision, deep learning, and 3D reconstruction. Most of my research is about understanding and distilling 3D scene representations.
+</p>
 
-I hold an MSc in Computer Science from the Hebrew University of Jerusalem. I am passionate about the intersection of mathematics, deep learning, and computer vision, with a particular focus on 3D scene understanding, generative modeling, and feature distillation.
+<table style="width:100%; border:none; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
+  <tbody>
 
----
+    <tr onmouseout="this.style.background='white'" onmouseover="this.style.background='#ffffd0'">
+      <td style="padding:20px; width:25%; vertical-align:middle">
+        <img src="/assets/splat_and_distill.png" width="160" style="border-radius:5px">
+      </td>
+      <td style="padding:20px; width:75%; vertical-align:middle">
+        <a href="https://openreview.net/pdf?id=9fqGBSLBX8">
+          <span style="font-weight:bold">Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation</span>
+        </a>
+        <br>
+        <strong>David Shavin</strong>, <a href="https://sagiebenaim.github.io/">Sagie Benaim</a>
+        <br>
+        <em>ICLR</em>, 2026
+        <br>
+        <a href="https://openreview.net/forum?id=9fqGBSLBX8">project page</a> / <a href="https://openreview.net/pdf?id=9fqGBSLBX8">arXiv</a>
+        <p>A novel framework for 3D-aware distillation that leverages feed-forward 3D reconstruction to improve teacher-to-student knowledge transfer.</p>
+      </td>
+    </tr>
 
-## 📚 Publications
+    <tr onmouseout="this.style.background='white'" onmouseover="this.style.background='#ffffd0'">
+      <td style="padding:20px; width:25%; vertical-align:middle">
+        <img src="/assets/Structurally_Disentangled_Feature_Fields.png" width="160" style="border-radius:5px">
+      </td>
+      <td style="padding:20px; width:75%; vertical-align:middle">
+        <a href="https://arxiv.org/abs/2502.14789">
+          <span style="font-weight:bold">Structurally Disentangled Feature Fields Distillation for 3D Understanding and Editing</span>
+        </a>
+        <br>
+        <a href="https://il.linkedin.com/in/yoel-levy-99217b14a">Yoel Levy</a>, <strong>David Shavin</strong>, <a href="https://itailang.github.io/">Itai Lang</a>, <a href="https://sagiebenaim.github.io/">Sagie Benaim</a>
+        <br>
+        <em>3DV</em>, 2026
+        <br>
+        <a href="https://arxiv.org/abs/2502.14789">arXiv</a>
+        <p>Introducing a method for distilling structurally disentangled feature fields, enabling more precise 3D scene understanding and editing capabilities.</p>
+      </td>
+    </tr>
 
-| Image | Description |
-| :--- | :--- |
-| <img src="/assets/splat_and_distill.png" width="200"> | **[Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation](https://openreview.net/pdf?id=9fqGBSLBX8)** <br> *Authors: **David Shavin**, [Sagie Benaim](https://sagiebenaim.github.io/)* <br> *Published in: **ICLR 2026*** <br> A novel framework for 3D-aware distillation that leverages feed-forward 3D reconstruction to improve teacher-to-student knowledge transfer. <br> [Paper](https://openreview.net/pdf?id=9fqGBSLBX8) \| [Project Page](https://openreview.net/forum?id=9fqGBSLBX8) |
-| <img src="/assets/Structurally_Disentangled_Feature_Fields.png" width="200"> | **[Structurally Disentangled Feature Fields Distillation for 3D Understanding and Editing](https://arxiv.org/abs/2502.14789)** <br> *Authors: [Yoel Levy](https://il.linkedin.com/in/yoel-levy-99217b14a), **David Shavin**, [Itai Lang](https://itailang.github.io/), [Sagie Benaim](https://sagiebenaim.github.io/)* <br> *Published in: **3DV 2026*** <br> Introducing a method for distilling structurally disentangled feature fields, enabling more precise 3D scene understanding and editing capabilities. <br> [arXiv](https://arxiv.org/abs/2502.14789) |
-| <img src="/assets/earlier_then_early.png" width="200"> | **[‘Earlier than Early’ Detection of Breast Cancer in Israeli BRCA Mutation Carriers Applying AI-Based Analysis to Consecutive MRI Scans](https://www.mdpi.com/2072-6694/15/12/3120)** <br> *Authors: Debbie Anaby, **David Shavin**, Gali Zimmerman-Moreno, Noam Nissan, Eitan Friedman, Miri Sklair-Levy* <br> *Published in: **Cancers (MDPI)** (2023)* <br> Using AI-based analysis on temporal MRI sequences to identify high-risk signs of breast cancer in mutation carriers earlier than traditional methods. <br> [Journal Link](https://www.mdpi.com/2072-6694/15/12/3120) |
+    <tr onmouseout="this.style.background='white'" onmouseover="this.style.background='#ffffd0'">
+      <td style="padding:20px; width:25%; vertical-align:middle">
+        <img src="/assets/earlier_then_early.png" width="160" style="border-radius:5px">
+      </td>
+      <td style="padding:20px; width:75%; vertical-align:middle">
+        <a href="https://www.mdpi.com/2072-6694/15/12/3120">
+          <span style="font-weight:bold">‘Earlier than Early’ Detection of Breast Cancer in Israeli BRCA Mutation Carriers Applying AI-Based Analysis to Consecutive MRI Scans</span>
+        </a>
+        <br>
+        Debbie Anaby, <strong>David Shavin</strong>, Gali Zimmerman-Moreno, Noam Nissan, Eitan Friedman, Miri Sklair-Levy
+        <br>
+        <em>Cancers (MDPI)</em>, 2023
+        <br>
+        <a href="https://www.mdpi.com/2072-6694/15/12/3120">Journal Link</a>
+        <p>Using AI-based analysis on temporal MRI sequences to identify high-risk signs of breast cancer in mutation carriers earlier than traditional methods.</p>
+      </td>
+    </tr>
 
----
-
-## 🛠 Skills & Tools
-* **Core Interests:** Deep Learning, Computer Vision, Mathematical Modeling
-* **Languages:** Python (PyTorch, NumPy), C++, LaTeX
-* **Expertise:** 3D Reconstruction, Feature Distillation, Medical Imaging AI
+  </tbody>
+</table>
