@@ -20,7 +20,7 @@ title: David Shavin | Research Portfolio
         </p>
       </td>
       <td style="padding:2.5%; width:30%; max-width:30%">
-        <img style="width:100%; max-width:100%; border-radius:50%" alt="profile photo" src="/assets/profile.jpg">
+        <img style="width:100%; max-width:100%; border-radius:50%" alt="profile photo" src="/assets/resume_picture.png">
       </td>
     </tr>
   </tbody>
