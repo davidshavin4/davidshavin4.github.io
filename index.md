@@ -1,11 +1,43 @@
 ---
 layout: null
 ---
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>David Shavin | Research Portfolio</title>
+  <meta name="title" content="David Shavin | Research Portfolio">
+  <meta name="description" content="MSc Computer Science at Hebrew University of Jerusalem. Researching 3D scene understanding, deep learning, and computer vision.">
+  <meta name="keywords" content="David Shavin, Computer Vision, Deep Learning, 3D Reconstruction, Hebrew University, ICLR 2026, Splat and Distill">
+  <meta name="author" content="David Shavin">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://davidshavin4.github.io/">
+  <meta property="og:title" content="David Shavin | Research Portfolio">
+  <meta property="og:description" content="Research portfolio of David Shavin, focusing on 3D reconstruction and generative modeling.">
+  <meta property="og:image" content="/assets/resume_picture.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "David Shavin",
+    "url": "https://davidshavin4.github.io/",
+    "jobTitle": "Researcher",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Hebrew University of Jerusalem"
+    },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=Qd1fDIwAAAAJ",
+      "https://github.com/davidshavin4",
+      "https://www.linkedin.com/in/david-shavin-952308222/"
+    ]
+  }
+  </script>
+
   <style>
     body { font-family: 'Lato', Verdana, Helvetica, sans-serif; max-width: 900px; margin: 40px auto; padding: 20px; line-height: 1.5; color: #444; }
     a { color: #1772d0; text-decoration: none; }
@@ -34,7 +66,7 @@ layout: null
       </p>
     </td>
     <td style="padding:2%; width:30%; text-align:center;">
-      <img src="/assets/resume_picture.png" style="width:100%; max-width:220px; border-radius:50%" alt="profile photo">
+      <img src="/assets/resume_picture.png" style="width:100%; max-width:220px; border-radius:50%" alt="David Shavin - Computer Science Researcher">
     </td>
   </tr>
 </table>
@@ -47,7 +79,7 @@ layout: null
 <table style="width:100%; border:none; border-spacing:0px; border-collapse:separate;">
   <tr class="pub-row">
     <td style="padding:20px; width:25%; vertical-align:middle">
-      <img src="/assets/splat_and_distill.png" class="paper-img" alt="Paper Image">
+      <img src="/assets/splat_and_distill.png" class="paper-img" alt="Splat and Distill Paper - David Shavin">
     </td>
     <td style="padding:20px; width:75%; vertical-align:middle">
       <a href="https://openreview.net/pdf?id=9fqGBSLBX8"><strong>Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation</strong></a><br>
@@ -60,7 +92,7 @@ layout: null
 
   <tr class="pub-row">
     <td style="padding:20px; width:25%; vertical-align:middle">
-      <img src="/assets/Structurally_Disentangled_Feature_Fields.png" class="paper-img" alt="Paper Image">
+      <img src="/assets/Structurally_Disentangled_Feature_Fields.png" class="paper-img" alt="Structurally Disentangled Feature Fields - David Shavin">
     </td>
     <td style="padding:20px; width:75%; vertical-align:middle">
       <a href="https://arxiv.org/abs/2502.14789"><strong>Structurally Disentangled Feature Fields Distillation for 3D Understanding and Editing</strong></a><br>
@@ -73,7 +105,7 @@ layout: null
 
   <tr class="pub-row">
     <td style="padding:20px; width:25%; vertical-align:middle">
-      <img src="/assets/earlier_then_early.png" class="paper-img" alt="Paper Image">
+      <img src="/assets/earlier_then_early.png" class="paper-img" alt="AI-Based Breast Cancer Detection - David Shavin">
     </td>
     <td style="padding:20px; width:75%; vertical-align:middle">
       <a href="https://www.mdpi.com/2072-6694/15/12/3120"><strong>‘Earlier than Early’ Detection of Breast Cancer in Israeli BRCA Mutation Carriers Applying AI-Based Analysis to Consecutive MRI Scans</strong></a><br>
